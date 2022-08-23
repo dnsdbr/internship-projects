@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.container-logo{
+    width:132px;
+    height: 42px;
+}
+.svelte-1gcdbl9{
+    fill:white;
+}
+header{
+    background-color: black;
+    color: white;
+    position: relative;
+    width:0 auto;
+    height: 80px;
+    margin: 0;
+    padding: 0px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-link{
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    padding: 0 15px;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.btn-link:hover{
+    color: #1ed760;
+}
+.text-element{
+    margin-bottom: 24px;
+}
+.btn{
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+    border: none;
+    cursor: pointer;
+}
+.btn--primary{
+    color: var(--text-base,#000000);
+    background-color: var(--background-base,#ffffff);
+}
+.intro{
+    background-color: rgb(25, 230, 140);
+    padding: 40px 15px 104px;
+    text-align: center;
+}
+.intro p{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    display: block;
+    letter-spacing: 0px;
+}
+h1{
+    font-size: 48px;
+    padding: 0px 0px 0.67em;
+    display: block;
+}
+.computer-container{
+    max-width: 250px;
+    margin: 64px auto 40px;
+    width: 136px;
+    position: relative;
+}
+
+.laptop{
+    width: 100%;
+    height: auto;
+}
+
+.absolute-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-45{
+    top: 45%;
+}
+.spotifylogo{
+    width: 100px;
+}
+
+.useful-links{
+    display: flex;
+    width: 50%;
+    flex: 0 0 auto;
+    text-align: center;
+    flex-direction: row;
+}
+.stores-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.options{
+    background: white;
+    text-align: center;
+    padding: 70px 15px;
+    box-sizing: border-box;
+}
+.options h2{
+    padding: 0px 0px 0.75em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.devices{
+    background:rgb(34, 35, 38);
+    color: white;
+    padding: 70px 15px 50px;
+    height: 330px;
+    text-align: center;
+}
+.device-options{
+    display: flex;
+    justify-content: center;
+}
+.bullet{
+    margin: 0px 14px;
+    color: rgb(29, 185, 84);
+    font-size: 16px;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 80px 0 50px;
+}
+.devices h3{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    padding: 0px 0px 0.75em;
+}
+.useful h5{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+.useful p{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.useful p:hover{
+    color: #1ed760;
+}
+.useful {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+.lower-text{
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: #919496;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin-right: 24px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+    display: inline-block;
+    line-height: normal;
+    letter-spacing: 0;
+}
+
+.lower-page{
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    width: 100%;
+    display:flex;
+}
